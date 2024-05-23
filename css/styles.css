@@ -250,10 +250,13 @@ a {
 
 .portfolio-list {
   flex-wrap: wrap;
+  gap: 24px;
+  flex-grow: 3;
 }
 
 .portfolio-item {
   background: #fff;
+  flex-grow: 3;
 }
 
 /* .portfolio-img {
