@@ -136,6 +136,10 @@ header>.container {
 
 /* -----------    Hero    --------- */
 
+main>*:first-child {
+  padding: 188px 0;
+}
+
 main>*:first-child>div {
   background-color: #2e2f42;
   max-width: 100%;
