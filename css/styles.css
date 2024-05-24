@@ -136,7 +136,7 @@ header>.container {
 
 /* -----------    Hero    --------- */
 
-main>*:first-child {
+main>*:first-child .section {
   padding: 188px 0;
 }
 
