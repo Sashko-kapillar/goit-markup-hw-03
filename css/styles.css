@@ -108,18 +108,17 @@ header>.container {
 
 /* -----------    Contacts    --------- */
 
-.address {
-  font-style: normal;
-  display: flex;
-}
+/* .address {} */
 
 .address-list {
+  display: flex;
   gap: 40px;
 }
 
 .address-item {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 .contacts-link {
