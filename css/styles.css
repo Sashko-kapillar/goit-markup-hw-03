@@ -223,7 +223,7 @@ main>*:first-child>.container {
   gap: 24px;
 }
 
-.advantages-list:first-child {
+.advantages-list:nth-child(n) {
   width: calc((100% - 72px) / 4);
 }
 
