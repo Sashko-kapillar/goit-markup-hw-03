@@ -45,6 +45,7 @@ header>.container {
   display: flex;
   width: 1158px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 
@@ -77,15 +78,15 @@ header>.container {
   line-height: 1.5;
   color: #434455;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .menu-list:hover .menu-list:focus {
   color: #404bbf;
 }
 
-/* .menu-item {
-} */
+.menu-item {
+  padding: 24px 0;
+}
 
 .menu-link {
   color: #2e2f42;
@@ -103,11 +104,12 @@ header>.container {
 
 /* -----------    Contacts    --------- */
 
-.contacts-title {
+.contacts {
   font-style: normal;
 }
 
 .contacts-list {
+  display: flex;
   gap: 40px;
 }
 
