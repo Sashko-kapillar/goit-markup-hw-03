@@ -79,15 +79,16 @@ header>.container {
   line-height: 1.5;
   color: #434455;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .menu-list:hover .menu-list:focus {
   color: #404bbf;
 }
 
-.menu-item {
+/* .menu-item {
   padding: 24px 0;
-}
+} */
 
 .menu-link {
   color: #2e2f42;
@@ -107,10 +108,10 @@ header>.container {
 
 .contacts {
   font-style: normal;
+  display: flex;
 }
 
 .contacts-list {
-  display: flex;
   gap: 40px;
 }
 
@@ -218,9 +219,13 @@ main>*:first-child>.container {
   gap: 24px;
 }
 
-.advantages-item {
+.advantages-list:first-child {
   width: calc((100% - 72px) / 4);
 }
+
+/* .advantages-item {
+  width: calc((100% - 72px) / 4);
+} */
 
 .advantages-subtitle {
   font-weight: 500;
