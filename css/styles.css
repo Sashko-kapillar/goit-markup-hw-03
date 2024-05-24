@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -224,7 +225,7 @@ main>*:first-child>.container {
   gap: 24px;
 }
 
-ul .advantages-item {
+ul .first-item {
   width: calc((100% - 72px) / 4);
 }
 
