@@ -225,7 +225,7 @@ main>*:first-child>.container {
   gap: 24px;
 }
 
-ul .first-item {
+.advantages-list>*:first-child {
   width: calc((100% - 72px) / 4);
 }
 
