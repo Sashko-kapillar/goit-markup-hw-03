@@ -108,14 +108,14 @@ header>.container {
 
 /* -----------    Contacts    --------- */
 
-/* .address {} */
+/* .contacts {} */
 
-.address-list {
+.contacts-info-list {
   display: flex;
   gap: 40px;
 }
 
-.address-item {
+.contacts-item {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
