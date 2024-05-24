@@ -55,7 +55,7 @@ header>.container {
   align-items: center;
 }
 
-.top-line-link {
+.menu-link {
   padding: 16px 32px;
   border-radius: 3px;
   font-family: "Raleway", sans-serif;
@@ -66,6 +66,7 @@ header>.container {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .logo-clr {
