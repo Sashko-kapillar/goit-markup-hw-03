@@ -330,6 +330,7 @@ main>*:first-child>.container {
   row-gap: 48px;
   flex-grow: 3;
   max-width: 1128px;
+  column-gap: 24px;
 }
 
 .portfolio-item {
@@ -370,11 +371,12 @@ main>*:first-child>.container {
 
 /* -----------    Footer   --------- */
 
-footer>.container {
+/* footer>.container {
   padding: 100px 0;
-}
+} */
 
 .footer {
+  padding: 100px 0;
   background: #2e2f42;
 }
 
