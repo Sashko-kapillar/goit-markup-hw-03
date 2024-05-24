@@ -224,7 +224,7 @@ main>*:first-child>.container {
   gap: 24px;
 }
 
-.advantages-list:nth-child(n) {
+ul:first-child>.advantages-item {
   width: calc((100% - 72px) / 4);
 }
 
