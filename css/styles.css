@@ -54,6 +54,7 @@ header>div {
 
 .top-line-nav {
   display: flex;
+  align-items: center;
 }
 
 .menu-link {
@@ -69,6 +70,10 @@ header>div {
   margin-right: 76px;
   padding: 24px 0;
   text-align: center;
+}
+
+.menu-item {
+  padding: 24px 0;
 }
 
 .logo-clr {
@@ -143,9 +148,9 @@ header>div {
 
 /* -----------    Hero    --------- */
 
-/* .hero {
+.hero {
   padding-bottom: 188px;
-} */
+}
 
 main>:first-child>div {
   background-color: #2e2f42;
