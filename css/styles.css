@@ -172,10 +172,8 @@ main>:first-child>.container {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
-  /* padding-top: 188px; */
   margin: 0 auto 48px;
   max-width: 496px;
-  /* align-content: center; */
 }
 
 .hero-btn {
@@ -281,10 +279,6 @@ main>:first-child>.container {
   margin-bottom: 72px;
 }
 
-/* .container .team-list {
-  width: calc((100% - 20px)/4);
-} */
-
 .team-list {
   gap: 24px;
   border-radius: 0px 0px 4px 4px;
@@ -298,9 +292,6 @@ main>:first-child>.container {
 .team-item {
   background: #fff;
 }
-
-/* .team-img {
-} */
 
 .team-name-position {
   padding: 32px 0;
