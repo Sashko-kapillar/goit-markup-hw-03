@@ -87,7 +87,6 @@ header>div {
   line-height: 1.5;
   color: #434455;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .menu-link-item {
@@ -96,6 +95,7 @@ header>div {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .menu-list:hover .menu-list:focus {
@@ -149,7 +149,7 @@ header>div {
 /* -----------    Hero    --------- */
 
 .hero {
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
 
 main>:first-child>div {
