@@ -123,6 +123,7 @@ header>div {
 }
 
 .contacts-info-list {
+  font-weight: 400;
   gap: 40px;
 }
 
@@ -149,13 +150,13 @@ header>div {
 /* -----------    Hero    --------- */
 
 .hero {
+  background-color: #2e2f42;
   padding: 188px 0;
 }
 
-main>:first-child>div {
-  background-color: #2e2f42;
+/* main>:first-child>div {
   max-width: 100%;
-}
+} */
 
 main>:first-child>.container {
   padding: 100px 0;
@@ -172,7 +173,7 @@ main>:first-child>.container {
   letter-spacing: 0.02em;
   color: #fff;
   /* padding-top: 188px; */
-  margin-bottom: 48px;
+  margin: 0 auto 48px;
   max-width: 496px;
   /* align-content: center; */
 }
@@ -190,6 +191,7 @@ main>:first-child>.container {
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
+  margin: 0 auto;
 }
 
 .hero-btn:hover {
@@ -205,6 +207,7 @@ main>:first-child>.container {
 /* -----------    Advantages   --------- */
 
 /* .advantages {
+  
 } */
 
 .advantages-title {
@@ -264,7 +267,7 @@ main>:first-child>.container {
 /* -----------    Team   --------- */
 
 .team {
-  background: #f4f4fd;
+  background-color: #f4f4fd;
 }
 
 .team-title {
@@ -395,9 +398,9 @@ main>:first-child>.container {
   background: #2e2f42;
 }
 
-.footer .container {
-  max-width: 100%;
-}
+/* .footer .container {
+  padding-left: 141px;
+} */
 
 .footer-link {
   display: inline-block;
@@ -422,6 +425,7 @@ main>:first-child>.container {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 /* -----------    Footer end  --------- */
