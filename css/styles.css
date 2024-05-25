@@ -20,17 +20,13 @@ ul {
   /* justify-content: space-between; */
 }
 
-/* .top-line {
-  display: inline;
-} */
-
 a {
   text-decoration: none;
 }
 
 .section {
   padding-bottom: 120px;
-  /* padding-top: 120px; */
+  padding-top: 120px;
 }
 
 /* .container {
@@ -51,17 +47,12 @@ a {
   margin: 0 auto;
 }
 
-.header-container {
+header>div {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
 }
 
-/* .top-line {
-  display: inline;
-} */
-
 .top-line-nav {
-  align-items: center;
   display: flex;
 }
 
@@ -76,8 +67,8 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-  margin-left: 156px;
   padding: 24px 0;
+  text-align: center;
 }
 
 .logo-clr {
@@ -92,6 +83,14 @@ a {
   color: #434455;
   gap: 40px;
   padding: 24px 0;
+}
+
+.menu-link-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .menu-list:hover .menu-list:focus {
@@ -115,8 +114,7 @@ a {
 /* -----------    Contacts    --------- */
 
 .contacts {
-  display: flex;
-  padding: 24px 0 24px 332px;
+  padding: 24px 0;
 }
 
 .contacts-info-list {
@@ -145,9 +143,9 @@ a {
 
 /* -----------    Hero    --------- */
 
-.hero {
-  /* padding-bottom: 188px; */
-}
+/* .hero {
+  padding-bottom: 188px;
+} */
 
 main>:first-child>div {
   background-color: #2e2f42;
