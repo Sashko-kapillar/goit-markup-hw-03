@@ -29,10 +29,6 @@ a {
   padding-top: 120px;
 }
 
-/* .container {
-
-} */
-
 /* -----------    Top-line    --------- */
 
 .header {
@@ -47,7 +43,7 @@ a {
   margin: 0 auto;
 }
 
-header>div {
+.header-container {
   display: flex;
   justify-content: space-between;
 }
@@ -234,10 +230,6 @@ main>:first-child>.container {
 .advantages-list {
   gap: 24px;
 }
-
-/* .advantages-list>:first-child {
-  width: calc((100% - 72px) / 4);
-} */
 
 .advantages-item {
   width: calc((100% - 72px) / 4);
