@@ -14,10 +14,10 @@ img {
   display: block;
 }
 
-ul {
+ul,
+ol {
   display: flex;
   list-style-type: none;
-  /* justify-content: space-between; */
 }
 
 a {
