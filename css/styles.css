@@ -65,7 +65,7 @@ a {
   color: #4d5ae5;
   margin-right: 76px;
   padding: 24px 0;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .menu-item {
@@ -150,16 +150,8 @@ a {
   padding: 188px 0;
 }
 
-/* main>:first-child>div {
-  max-width: 100%;
-} */
-
 main>:first-child>.container {
   padding: 100px 0;
-}
-
-.hero-container {
-  text-align: center;
 }
 
 .hero-title {
@@ -200,9 +192,6 @@ main>:first-child>.container {
 
 /* -----------    Advantages   --------- */
 
-/* .advantages {
-  
-} */
 
 .advantages-title {
   font-weight: 700;
@@ -276,18 +265,18 @@ main>:first-child>.container {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-list>:first-child {
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
-}
+/* .team-list>:first-child {
+  
+} */
 
 .team-item {
   background: #fff;
+  width: calc((100% - 72px) / 4);
 }
 
-.team-name-position {
+/* .team-name-position {
   padding: 32px 0;
-}
+} */
 
 .team-subtitle {
   font-weight: 500;
@@ -312,8 +301,6 @@ main>:first-child>.container {
 
 /* -----------    Portfolio  --------- */
 
-/* .portfolio {
-} */
 
 .portfolio-title {
   font-weight: 700;
@@ -329,15 +316,15 @@ main>:first-child>.container {
 .portfolio-list {
   flex-wrap: wrap;
   row-gap: 48px;
-  flex-grow: 3;
+  /* flex-grow: 3; */
   max-width: 1128px;
   column-gap: 24px;
 }
 
 .portfolio-item {
   width: calc((100% - 48px) / 3);
-  background: #fff;
-  flex-grow: 3;
+  /* background: #fff; */
+  /* flex-grow: 3; */
 }
 
 .portfolio-item>div {
@@ -372,18 +359,12 @@ main>:first-child>.container {
 
 /* -----------    Footer   --------- */
 
-/* footer>.container {
-  padding: 100px 0;
-} */
+
 
 .footer {
   padding: 100px 0;
   background: #2e2f42;
 }
-
-/* .footer .container {
-  padding-left: 141px;
-} */
 
 .footer-link {
   display: inline-block;
